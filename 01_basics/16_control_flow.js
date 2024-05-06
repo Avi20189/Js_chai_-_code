@@ -19,7 +19,7 @@ let val1;
 
 //val1 = undefined ?? 23                 
 
-console.log(val1);
+// console.log(val1);
 
 
 //Terniry operator
@@ -30,3 +30,4 @@ const ferrari = 8000000
 
 ferrari >= 900000000  ?console.log("you can not buy")  : console.log("buy it");
 
+//This is the terniray operator 
