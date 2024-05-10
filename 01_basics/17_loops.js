@@ -61,9 +61,44 @@
 //     console.log(item.language);
 // })
 
-const coding = ["js", "python", "java", "ruby", "cpp"]
+// const coding = ["js", "python", "java", "ruby", "cpp"]
 
-const values = coding.forEach( (items) => {
-    console.log(items)
-})
+// const values = coding.forEach( (items) => {
+//     console.log((items))
+// })
+
+
+//Apply filter method 
+
+// const arr = [1,2,3,4,5,6,7,8,9,10];
+
+// const filteredArr = arr.filter( (arr) => 
+//     (arr > 4) //we have to add return statement when we use {}
+// )
+// console.log(filteredArr)
+
+// const arr = [1,2,3,4,5,6,7,8,9,10];
+
+// const filteredArr = arr.filter((arr) => {
+//     return (arr > 4) 
+// })
+
+// console.log(filteredArr)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

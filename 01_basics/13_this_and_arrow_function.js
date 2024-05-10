@@ -26,9 +26,11 @@
 
 // console.log(addTwo(3,4));
 
+const addTwo = (num1, num2) => num1+num2   
+
 //Now we have to implement a new type of output. It is called implicit return. In this 
 
-const addTwo = (num1,num2) => ({username: "aviansh"})
+// const addTwo = (num1,num2) => ({username: "aviansh"})  //returning an object
 
 
 console.log(addTwo(223,231));
