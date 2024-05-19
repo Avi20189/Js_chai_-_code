@@ -16,4 +16,3 @@
 /* ***********************         DOM Selectors             ******************************/
 //Methods to manipulate DOM
 //1. getElementByID 
-
