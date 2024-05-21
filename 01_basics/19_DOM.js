@@ -14,5 +14,15 @@
 
 
 /* ***********************         DOM Selectors             ******************************/
-//Methods to manipulate DOM
-//1. getElementByID 
+
+// innerText and textContent both workd different . innerText will show only visible code
+//but textContent will make all text visible.
+// querySelector            vs        queryselectorAll
+
+//queryselector returns the very first element it has been asked to return
+//querySelectorAll return a nodeList. It is similar to an array. but it doesn't have .map method.
+
+//document.getElementByClassName -- It is used to filter elements by using the className.it returns HTMLCollection
+
+//we can use Array.from method to coonvert our htmlList to arrayList
+
