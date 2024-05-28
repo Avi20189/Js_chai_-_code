@@ -1,0 +1,35 @@
+<!-- // .setAttribute - We can set custom attributes by this method
+//div.innerHTML is not used often
+//we should use document.createTextNode instead of that. It saves time and is optimized.
+//div.appendChild is used to show div oonto screen
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chai aur code</title>
+ </head>
+ <body style = "background-color: #212121; color:#fff;">
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+ </body>
+ <script>
+    function addLanguage(langName) {
+        const li = document.createElement('li')
+        li.innerHTML = `${langName}`
+        document.querySelector('.language').appendChild(li)
+    }
+    addLanguage("python")
+
+    function addOptiLanguage(langName) {
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(li)
+    }
+    addOptiLanguage('golang')
+    //There are few method like innerHTML and outerHTML are there which can edit and remove function is there to remove the last element
+    
+ </script>
+ </html>
