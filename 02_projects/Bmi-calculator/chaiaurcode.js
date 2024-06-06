@@ -6,6 +6,7 @@ form.addEventListener('submit', function(e){
    const height =  parseInt(document.querySelector('#height').value)
    const weight =  parseInt(document.querySelector('#weight').value)
    const results = parseInt(document.querySelector('#results').value)
+   const singleResult = parseInt(document.querySelector('#resultttoBePublished'))
    
 
 })
