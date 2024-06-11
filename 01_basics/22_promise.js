@@ -79,7 +79,7 @@
 // consumePromise5()
 
 //getAllUsers
-
+//We are going to use this fetch api maximum times
 fetch('https://api.github.com/users/avi20189')
 .then((response) => {
     return response.json()
