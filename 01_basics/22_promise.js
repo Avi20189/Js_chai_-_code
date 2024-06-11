@@ -80,6 +80,11 @@
 
 //getAllUsers
 //We are going to use this fetch api maximum times
+
+//Fetch - It is a method which starts the process of fetching a resource from the network, 
+//returnig a promise which is fullfilled once the response is available.
+//Fetch has a special micro tasks queue which is only available for fetch api. it is alike task queue
+//It is also known as priority queue or fetch queue
 fetch('https://api.github.com/users/avi20189')
 .then((response) => {
     return response.json()
