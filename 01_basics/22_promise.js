@@ -87,3 +87,4 @@ fetch('https://api.github.com/users/avi20189')
 .then((data) => {
     console.log((data));
 })
+.catch((error) => console.log(error))
