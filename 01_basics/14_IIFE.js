@@ -9,7 +9,7 @@
 //     console.log("Tashu ko peeto");
 // }
 
-//THis is normal function
+//This is normal function
 
 //To make this function IIFE we will wrap into ()
 
@@ -28,6 +28,7 @@
 //     console.log(`dhyey pitai khayega ${name}`)
 // })("tashu se")
 
+//These functions are used in booting mobile.
 
 
 
