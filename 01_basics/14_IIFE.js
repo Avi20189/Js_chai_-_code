@@ -29,7 +29,3 @@
 // })("tashu se")
 
 //These functions are used in booting mobile.
-
-
-
-
