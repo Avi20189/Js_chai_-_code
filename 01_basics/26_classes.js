@@ -1,1 +1,1 @@
-//We are starting classes 
+//In javascript everything is object except function is 
